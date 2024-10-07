@@ -24,5 +24,24 @@ git add .
 git commit 
 git push
 ```
+# Create and Manage virtual environment
+```
+py -m venv .venv
 
+.venv\Scripts\Activate
+```
+
+## import dependencies
+```
+Create a file in the root folder of your repo (same level as the README.md) named requirements.txt with the following packages:
+jupyterlab
+pandas
+pyarrow
+matplotlib
+seaborn
+
+Using following command to import packages:
+
+py -m pip install -r requirements.txt
+```
 
