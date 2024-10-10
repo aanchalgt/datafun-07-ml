@@ -39,6 +39,7 @@ pandas
 pyarrow
 matplotlib
 seaborn
+scikit-learn
 
 Using following command to import packages:
 
